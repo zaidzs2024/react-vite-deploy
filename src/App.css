@@ -1,0 +1,87 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Centering container and styling */
+.game-container {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+form input {
+  width: 80%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+form input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.reset-btn {
+  margin-top: 1.5rem;
+  padding: 12px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 80%;
+}
+
+.reset-btn:hover {
+  background-color: #e64a19;
+}
